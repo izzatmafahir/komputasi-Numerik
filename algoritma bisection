@@ -1,0 +1,44 @@
+Algoritma Metode Bisection
+Mulai.
+
+Import library NumPy.
+
+Masukkan fungsi persamaan yang akan dicari akarnya.
+
+Tentukan interval awal (a dan b), toleransi error, dan maksimum iterasi.
+
+Periksa apakah 
+f
+(
+a
+)
+×
+f
+(
+b
+)
+<
+0
+f(a)×f(b)<0.
+
+Hitung titik tengah dengan rumus 
+c
+=
+(
+a
++
+b
+)
+/
+2
+c=(a+b)/2.
+
+Periksa nilai fungsi di titik tengah.
+
+Tentukan interval baru berdasarkan tanda fungsi.
+
+Ulangi proses hingga toleransi terpenuhi atau iterasi maksimum tercapai.
+
+Tampilkan hasil akar persamaan dan jumlah iterasi.
+
+Selesai.
