@@ -1,0 +1,46 @@
+Algoritma Program SPLTV
+1. Mulai
+
+2. Import Library
+
+- Memanggil library NumPy untuk membantu proses perhitungan matriks.
+
+3. Input Data
+
+Memasukkan koefisien variabel x, y, dan z.
+
+Memasukkan nilai konstanta dari ketiga persamaan.
+
+4. Menampilkan Persamaan
+
+- Menampilkan tiga persamaan linear yang akan diselesaikan.
+
+5. Proses Perhitungan
+
+- Menggunakan fungsi np.linalg.solve(A, B) untuk menghitung nilai x, y, dan z.
+
+6. Mengambil Hasil
+
+- Menyimpan hasil perhitungan ke dalam variabel x, y, dan z.
+
+7. Menampilkan Hasil
+
+- Menampilkan nilai x, y, dan z dengan dua angka di belakang koma.
+
+8. Pemeriksaan Hasil
+
+Menghitung kembali hasil persamaan menggunakan np.dot(A, hasil).
+
+Membandingkan hasil perhitungan dengan nilai konstanta menggunakan np.allclose().
+
+9. Menampilkan Kesimpulan
+
+Jika hasil sesuai, tampilkan "Hasil perhitungan BENAR".
+
+Jika hasil tidak sesuai, tampilkan "Hasil perhitungan SALAH".
+
+10. Selesai
+
+
+
+
